@@ -1,9 +1,9 @@
 import React from "react";
 
-const ToDoListItem = ({todo}) =>(
+const ToDoListItem = (props) =>(
     <div className="todo-item-container">
         <h3>
-            {todo.content}
+            {props.todo.content}
         </h3>
         <div className="btn-container">
             <button className="done-btn">Mark As Completed</button>

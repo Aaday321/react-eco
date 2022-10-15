@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
 import { hot } from 'react-hot-loader';
+import ToDoList from './toDos/ToDoList';
 
 const App = () =>(
     <div className="App">
-        <h1>Hello Ecosystem!</h1>
+        <ToDoList/>
     </div>
 )
 
